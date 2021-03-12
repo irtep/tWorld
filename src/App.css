@@ -1,4 +1,14 @@
 * {
-  background-color: rgb(22,22,22);
+/*  background-color: rgb(22,22,22);*/
+  background-color: #388e3c;
   color: rgb(170, 170, 170);
+}
+
+.townName {
+  text-align: center;
+  color: white;
+}
+
+th {
+  text-align: center;
 }

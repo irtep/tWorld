@@ -1,10 +1,6 @@
 import React from 'react';
 import shop from '../img/shop1.png';
 
-const style = {
-  backgroundColor: 'gray'
-} as const;
-
 interface CoordProps {
   x: number,
   y: number
@@ -17,7 +13,7 @@ const Block: React.FC<CoordProps> = ({x, y}: CoordProps) => {
 
   return(
     <>
-      <div style= {style}>
+      <div>
         x{x} y{y}
         <img
            width= "50"
