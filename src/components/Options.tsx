@@ -6,7 +6,7 @@ const style = {
 const Options: React.FC = () => {
   return(
     <div style= {style}>
-      options will come here
+      <h3>Trident City</h3>
     </div>
   );
 }
